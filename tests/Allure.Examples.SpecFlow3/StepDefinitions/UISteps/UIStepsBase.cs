@@ -16,7 +16,7 @@ public abstract class UIStepsBase
     }
 
     [AfterScenario]
-    public async void DisposeSession()
+    public async Task DisposeSession()
     {
         await Step("Rollback changes", this.RollbackChanges);
     }
