@@ -291,3 +291,6 @@ __pycache__/
 
 # allure plugin output
 /allure-results
+
+# Fenerated SpecFlow feature classes
+*.feature.cs
