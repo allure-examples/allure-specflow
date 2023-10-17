@@ -5,7 +5,8 @@
   },
   "specflow": {
     "labels": {
-      "label": "^allure.label.([^:]+):(.*)"
+      "label": "^allure.label.([^:]+):(.*)",
+      "severity": "^(normal|blocker|critical|minor|trivial)"
     }
   }
 }
