@@ -3,6 +3,7 @@
 namespace Allure.Examples.SpecFlow3.StepDefinitions;
 
 [Binding]
+[Scope(Feature = "Labels API")]
 public class APISteps
 {
 #nullable disable

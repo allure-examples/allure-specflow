@@ -19,6 +19,7 @@ public abstract class UIStepsBase
     public async Task DisposeSession()
     {
         await Step("Rollback changes", this.RollbackChanges);
+        Step("Close session");
     }
 
     protected virtual async Task RollbackChanges() => await Task.CompletedTask;

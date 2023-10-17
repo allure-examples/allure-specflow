@@ -3,6 +3,7 @@
 namespace Allure.Examples.SpecFlow3.StepDefinitions.UISteps;
 
 [Binding]
+[Scope(Feature = "Labels UI")]
 public class LabelsUISteps : UIStepsBase
 {
     protected override async Task RollbackChanges()
