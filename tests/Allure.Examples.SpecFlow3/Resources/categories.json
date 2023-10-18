@@ -1,0 +1,12 @@
+﻿[
+  {
+    "name": "Product defects",
+    "traceRegex": "^NUnit\\.Framework\\.AssertionException:.*",
+    "matchedStatuses": [ "failed" ]
+  },
+  {
+    "name": "Test defects",
+    "traceRegex": "^(?!NUnit\\.Framework\\.AssertionException:).*",
+    "matchedStatuses": [ "failed" ]
+  }
+]
