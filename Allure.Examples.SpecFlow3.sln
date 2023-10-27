@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{74E8553A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allure.Examples.SpecFlow3", "tests\Allure.Examples.SpecFlow3\Allure.Examples.SpecFlow3.csproj", "{BC9272E3-6D42-49C5-BF2A-7029BA8C9DA8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{3140A1B8-1B5F-494F-89FA-797FA083D034}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3140A1B8-1B5F-494F-89FA-797FA083D034}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		LICENSE = LICENSE
